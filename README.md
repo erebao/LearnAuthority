@@ -1,11 +1,19 @@
-黑马程序员 —> 基于Session的认证方式
+```
+具体步骤可参考项目下的README.md文件
+```
 
-视频链接(p1-p9)：https://www.bilibili.com/video/av73730658?p=1
+#### distributed-security
 
-> 运行：maven ——> clean tomcat7:run
+**实现基于OAuth2 Spring Cloud Security的认证方式**
 
-> 访问：http://localhost:8080/security-springmvc
- 
-> 账号密码：zhangsan 123 权限：http://localhost:8080/security-springmvc/r/r1
+#### security-spring-boot
 
-> 账号密码：list 456 权限：http://localhost:8080/security-springmvc/r/r2
+**spring boot实现基于spring security的认证方式**
+
+#### security-spring-security
+
+**基于spring security的认证方式**
+
+#### security-springmvc
+
+**基于Session的认证方式**
