@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /security-springboot
+    session:
+      timeout: 3600s # session超时时间
+#      cookie:
+#        http-only: true # 如果为true，那么浏览器脚本将无法访问cookie
+#        secure: true # 如果为true，则cookie将仅通过HTTPS连接发送
+
+spring:
+  application:
+    name: security-springboot
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/tanwb?useUnicode=true&useSSL=false
+    username: root
+    password: Root.123456
+    driver-class-name: com.mysql.jdbc.Driver
